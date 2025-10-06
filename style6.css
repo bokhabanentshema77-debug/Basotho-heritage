@@ -1,0 +1,35 @@
+body{
+font-family:"helvetica Neue",
+Arial,sans-serif;
+font-size:16px;/*comment*/
+color:deeppink;/*green*/
+background-color:blue;
+}
+h1{
+font-size:1cm;
+font-weight:bold;
+color:white;
+}
+p{
+line-height:1.5;
+text-align:justify;
+}
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+    background-color:#333333;
+    display:flex;
+}
+
+ul li a {
+diplay:block;
+color:white;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+}
+
+ul li a:hover {
+background-color:#111111;
+}

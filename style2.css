@@ -1,0 +1,66 @@
+body{
+font-family:"helvetica Neue",
+Arial,sans-serif;
+font-size:16px;/*comment*/
+color:white;/*green*/
+background-color:navajowhite;
+}
+h1{
+font-size:0.5cm;
+font-weight:bold;
+color:deepblue;
+}
+p{
+line-height:2;
+text-align:justify;
+font-size:15px;
+color:black;
+}
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+     background-color:transparent;
+    display:flex;
+}
+
+ul li a {
+diplay:block;
+color:deepblue;
+font-size:30px;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-family:copperplat;
+}
+
+ul li a:hover {
+background-color:black;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px 200px 200px; /*Make the grid smaller than the container*/
+  gap: 20px;
+  background-color: navajowhite;
+  padding: 5px;
+  justify-content: space-evenly;
+}
+
+.grid-container > div {
+  background-color:chocolate;
+  color:blue;
+  padding:5px;
+  font-size: 20px;
+  text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+

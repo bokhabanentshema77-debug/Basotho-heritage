@@ -1,0 +1,89 @@
+body{
+font-family:"helvetica Neue",
+Arial,sans-serif;
+font-size:16px;
+background-color:gray;
+}
+h1{
+font-size:1cm;
+font-weight:bold;
+color:white;
+}
+p{
+line-height:1.5;
+text-align:justify;
+font-size:20px;
+color:navajowhite;
+}
+ul {
+    list-style-type:none;
+    margin:0;
+    padding:0;
+     background-color:transparent;
+    display:flex;
+}
+
+ul li a {
+diplay:block;
+color:white;
+font-size:30px;
+text-align:center;
+padding:14px 16px;
+text-decoration:none;
+font-family:copperplat;
+}
+
+ul li a:hover {
+background-color:#111111;
+}
+form {
+  border-radius: 5px;
+  background-color: transparent;
+  padding: 20px;
+}
+
+label {display: block;}
+
+input[type=text], select {
+  width: 50%;
+color:#ee82ee;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 20%;
+  background-color:#ee82ee;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#6a5acd;
+}
+
+textarea {
+  width: 50%;
+  height: 150px;
+  padding: 12px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 16px;
+  resize: none;
+}
+
+
+
+
+
+
