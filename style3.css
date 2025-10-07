@@ -66,17 +66,33 @@ background-color:navy;
 }
 
 
-section{
-diplay:flex;
-gap:20px;
+.clothing{
+    background:linear-gradient(to bottom,#007786,#2E8857);
+    border-radius:10px;
+    color:white;
 }
-
-article{
-width: 320px;
-padding: 10px;
-border: 1px solid;
+.style{
+text-align:center;
+font-size:1cm;
+margin-bottom:20px;
+text-transform:uppercase;
+letter-spacing:2px;    
 }
-
+.box{
+display:grid;
+grid-tamplate-columns:repeat(auto-fill,minmax(200px,1fr));
+gap:30px;    
+padding:10px;
+height:600px;
+border-radius:0cm;    
+}
+.inside-box{
+   margin-top:10px;
+    font-weight:bold;
+    color:rgb(185,105,25);
+    font-size:8px;
+    text-align:left;
+}
 
 
 
